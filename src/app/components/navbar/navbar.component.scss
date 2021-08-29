@@ -1,0 +1,84 @@
+#navbar{
+    padding: 1rem;
+    width: 272px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    padding: 1rem; 
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-weight: 700;
+    margin: 0;
+}
+
+.sidenav-item{
+    padding: .4rem;
+    border-radius: 12px;
+    width: -webkit-fill-available;
+    text-align: left;
+    display: flex;
+    font-size: 16px;
+    color: #626264;
+    height: 56px;
+    align-items: center;
+}
+
+mat-icon{
+    width: 40px;
+    padding-left: 8px;
+}
+
+ul{
+    padding: 0;
+}
+
+#notification-icon{
+    border-radius: 13px;
+    padding: 3px 7px;
+    background-color: #673ab7;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.card{
+    border-radius: 20px;
+    margin: 0px 16px;
+    margin-top: 6rem;
+}
+
+#clock-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#order-button{
+    width: -webkit-fill-available;
+    text-align: end;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#order-button-icon{
+    width: 32%;
+}
+
+.footer{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}

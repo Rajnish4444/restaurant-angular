@@ -1,0 +1,98 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.navbar-button{
+    height: 48px;
+    min-width: 48px;
+    padding: 0 0;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: 500;
+}
+
+p{
+    margin: 0;
+}
+
+.detail-item{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.description{
+    margin-bottom: 1rem;
+}
+
+hr{
+    width: 40%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(163, 163, 164, 0.32);
+}
+
+#detail{
+    margin-top: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#detail-img{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 16px;
+}
+
+#category{
+    margin-top: 2rem;
+    display:flex;
+    gap: 2rem;
+}
+
+.category-item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#menu{
+    width:100%;
+    margin:0 auto;
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat( auto-fit, minmax(350px,0fr) );
+    margin-bottom: 5rem;
+}
+
+.menu-item{
+    text-align: center;
+    width: 336px;
+}
+
+.menu-img{
+    width: 100%; 
+    display: block;
+    height: 176px;
+    border-radius: 12px;
+}
+
+.menu-name{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: .5rem 0rem;
+}
+
+.item-cost{
+    color: #503E9D;
+}

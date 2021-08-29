@@ -1,0 +1,46 @@
+// #filter{
+//     border-radius: 12px 0 0 12px;
+// }
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort-by, .cuisine{
+    margin-top: 2rem;
+}
+
+.open{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cuisine-item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.see-more{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filter-button{
+    position: absolute;
+    width: 360px;
+    border-radius: 12px;
+    height: 64px;
+    bottom: 25px;
+}
