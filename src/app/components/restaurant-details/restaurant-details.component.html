@@ -40,14 +40,9 @@
         <div class="category-item">
             <div *ngFor="let item of categoryList; index as i">
                 <button mat-flat-button 
-                    class="orange-button"
-                *ngIf="selectedCategory.includes(item)" (click)="toggle(item)">
-                    {{item}} ({{categoryQty[i]}})
+                    class="orange-button" [class.disabled-button] = "!selectedCategory.includes(item)" (click)="toggle(item)">
+                    {{item}} {{item === 'All' ? "" : '(' + categoryQty[i] + ')'}}
                 </button>
-                <button mat-flat-button class="disabled-button" 
-                *ngIf="!selectedCategory.includes(item)" (click)="toggle(item)">
-                    {{item}} ({{categoryQty[i]}})
-                </button>    
             </div>
         </div>
     </div>
